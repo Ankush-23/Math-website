@@ -50,3 +50,57 @@ h1 a {
 .clear {
     clear: both;
 }
+#menu {
+        height: 70px;
+        background: linear-gradient(yellow, orange);
+        padding: 7px 0;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    #menu ul li {
+        float: left;
+        padding: 0px 12px;
+        height: 30px;
+        border-right: 1px solid blue;
+    }
+    
+    #menu ul li:last-child {
+        border-right: none;
+    }
+    
+    #menu ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 17px;
+        color: blue;
+        line-height: 30px;
+        transition: font-size 0.3s ease;
+    }
+    
+    #menu ul li a:hover,
+    #menu ul li a:active {
+        font-size: 20px;
+        font-weight: bold;
+        color: blueviolet;
+    }
+    
+    #introduction {
+        background: linear-gradient(rgb(74, 211, 74), white);
+        padding: 30px;
+        margin: 16px 0;
+    }
+    
+    #introduction h3 {
+        font-size: 40px;
+        color: darkolivegreen;
+        font-weight: normal;
+    }
+    
+    #introduction p {
+        font-size: 25px;
+        color: darkolivegreen;
+        text-align: justify;
+    }
